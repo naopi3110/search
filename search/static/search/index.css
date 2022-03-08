@@ -1,0 +1,21 @@
+.flex1{
+    float: left;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.flex2{
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+.flex3{
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+a {
+    padding-bottom: 20px;
+}

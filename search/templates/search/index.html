@@ -1,0 +1,20 @@
+{% extends 'search/base.html' %}
+{% block content %}
+<table>
+    <div class='flex1'>
+    {% for number in number %}
+        <a>{{ number }} </a> <br>
+    {% endfor %}
+    </div>
+    <div class='flex2'>
+    {% for question in question %}
+        <a>{{ question }} </a> <br>
+    {% endfor %}
+    </div>
+    <div class='flex3'>
+    {% for answer in answer %}
+        <a>{{ answer }} </a> <br>
+    {% endfor %} 
+    </div>   
+</table>
+{% endblock %}

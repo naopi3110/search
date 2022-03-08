@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'search/index.css' %}">
+    <title>検索</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="{% url 'search:form' %}" class="head">検索：玉手箱（非言語・空欄補助）</a>
+            </li>
+            <li>
+                <a href="{% url 'search:form1' %}" class="head">検索：玉手箱（言語）</a>
+            </li>
+            <li>
+                <a href="{% url 'search:form2' %}" class="head">検索：玉手箱（英語））</a>
+            </li>
+            <li>
+                <a href="{% url 'search:form3' %}" class="head">検索：TG-WEB（言語）</a>
+            </li>
+            <li>
+                <a href="{% url 'search:form4' %}" class="head">検索：TG-WEB(数学)</a>
+            </li>
+            <li>
+                <a href="{% url 'search:form5' %}" class="head">検索：GAB（言語・テレ朝系）</a>
+            </li>
+            <li>
+                <a href="{% url 'search:form6' %}" class="head">検索：GAB（英語）</a>
+            </li>
+            <li>
+                <a href="{% url 'search:form7' %}" class="head">検索：玉手箱（非言語・空欄補助）</a>
+            </li>
+        </ul>
+    </header>
+</body>
+{% block content %}
+
+
+{% endblock %}
+</html>
